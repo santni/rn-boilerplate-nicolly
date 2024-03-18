@@ -10,7 +10,7 @@ export default function Home() {
     <View style={styles.container}>
       <Title title="Home" />
 
-      <TouchButton route="Profile" title="Go to Profile" data={user} />
+      {/* <TouchButton route="Profile" title="Go to Profile" data={user} /> */}
 
       <TouchButton route="Category" title="Go to Category" />
     </View>
